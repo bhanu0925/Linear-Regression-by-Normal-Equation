@@ -1,0 +1,69 @@
+INFO:root:SAT Exam Score Prediction
+INFO:root:Dataset loaded!
+INFO:numexpr.utils:NumExpr defaulting to 8 threads.
+INFO:root:Profiling completed
+INFO:root:Column header updated
+INFO:root:Outliers removed
+INFO:root:Missing values dropped
+INFO:root:Data Splitting completed
+INFO:root:Model training Completed
+INFO:root:Prediction with test data
+INFO:root:****************Predicted values**************
+INFO:root:    Actual   Predicted
+0    146.0  140.093932
+1    148.0  151.075241
+2    147.0  148.459626
+3    140.0  138.889051
+4    115.0  109.434290
+5    144.0  145.561075
+6    183.0  182.017404
+7    136.0  131.205481
+8    159.0  159.096777
+9    158.0  158.312851
+10   157.0  156.374535
+11   186.0  184.099900
+12   159.0  157.092040
+13   156.0  155.931398
+14   183.0  188.040424
+15   208.0  213.626543
+16   169.0  163.269384
+17   143.0  146.197892
+INFO:root:***********Metrics***************
+INFO:root:SAT Exam Score Prediction
+INFO:root:Dataset loaded!
+INFO:root:Profiling completed
+INFO:root:Column header updated
+INFO:root:Outliers removed
+INFO:root:Missing values dropped
+INFO:root:Data Splitting completed
+INFO:root:Model training Completed
+INFO:root:Theta Values
+ERROR:root:module 'logging' has no attribute 'ingo'
+Traceback (most recent call last):
+  File "<ipython-input-30-1dc79ba3b2dc>", line 77, in trainmodel
+    logging.ingo(self.theta_)
+AttributeError: module 'logging' has no attribute 'ingo'
+INFO:root:Prediction with test data
+INFO:root:****************Predicted values**************
+INFO:root:    Actual   Predicted
+0    146.0  140.093932
+1    148.0  151.075241
+2    147.0  148.459626
+3    140.0  138.889051
+4    115.0  109.434290
+5    144.0  145.561075
+6    183.0  182.017404
+7    136.0  131.205481
+8    159.0  159.096777
+9    158.0  158.312851
+10   157.0  156.374535
+11   186.0  184.099900
+12   159.0  157.092040
+13   156.0  155.931398
+14   183.0  188.040424
+15   208.0  213.626543
+16   169.0  163.269384
+17   143.0  146.197892
+INFO:root:Accuracy
+INFO:root:0.973716698179376
+INFO:root:***********Metrics***************
